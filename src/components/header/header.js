@@ -7,7 +7,7 @@ import './header.css'
 export const Header = () => {
   return (
     <div className='header'>
-        header
+        
         <div className='wrapper'>
             <Link to='/' className='header__store-title'>
                 CakesStore

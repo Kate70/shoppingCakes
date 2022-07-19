@@ -5,19 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
+ 
 }
 
+.wrapper{
+  position: relative;
+  
+}
+
+.wrapper:before{
+  content: "";
+  background-image: url("./../public/img/makarons.jpg");
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: .4;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 .App {
+  position: relative;
   max-width: 1180px;;
   margin: 0 auto;
   padding: 0 40px;
   color: white;
-  background-color: rgb(25, 26, 28);
+  background-color: rgb(209, 110, 179);
+  height: 100vh;
 }
+
 a {
   color: white;
   text-decoration: none;
