@@ -1,0 +1,1 @@
+export const calcTotalPrice =items=> items.reduce((accum, cake)=> accum+cake.price,0)
